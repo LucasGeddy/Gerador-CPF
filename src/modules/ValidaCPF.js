@@ -1,4 +1,4 @@
-export default class ValidadorCPF {
+module.exports = class ValidadorCPF {
     constructor(cpf) {
         this.cpfOriginal = cpf;
     }

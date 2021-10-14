@@ -1,4 +1,4 @@
-import GeraCPF from './modules/GeraCPF';
+const GeraCPF = require('./modules/GeraCPF');
 
 import './assets/css/style.css';
 

@@ -1,6 +1,6 @@
-import ValidaCPF from './ValidaCPF';
+const ValidaCPF = require('./ValidaCPF');
 
-export default class GeraCPF {    
+module.exports = class GeraCPF {
     rand(min = 100000000, max = 999999999) {
         return String(Math.floor(Math.random() * (max - min) + min));
     }
